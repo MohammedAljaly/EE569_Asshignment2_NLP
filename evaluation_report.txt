@@ -1,0 +1,23 @@
+Evaluation Report
+
+Accuracy Score: 83.33%
+
+Classification Report:
+              precision    recall  f1-score   support
+
+         faq       0.67      1.00      0.80         2
+       guide       1.00      0.75      0.86         4
+
+    accuracy                           0.83         6
+   macro avg       0.83      0.88      0.83         6
+weighted avg       0.89      0.83      0.84         6
+
+
+Examples of Correct and Incorrect Responses:
+استجابة الشات بوت                                                                           السؤال                               
+تشمل شروط صحة الصلاة: الطهارة، ستر العورة، دخول وقت الصلاة، استقبال القبلة، النية، وخلوها من المبطلات. (صحيحة)                  ما هي شروط صحة الصلاة؟
+
+تجب الصلاة على كل مسلم بالغ عاقلو ولاتجب على الصغير غير المميز او المجنون او الحائض والنساء.(غير صحيحة)                                      شروط الوضوء
+Suggestions for Improvement:
+1. Expend data collection.
+2. Refine similarity threshold
